@@ -1,8 +1,20 @@
 import React from 'react'
+import { Box } from "@mui/material"
+
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Box sx={{
+      height: '100%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
+
+        Click here to create your first board
+
+    </Box>
   )
 }
 
